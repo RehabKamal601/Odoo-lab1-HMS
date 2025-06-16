@@ -1,0 +1,20 @@
+{
+    'name': 'Hospital Management System',
+    'version': '1.0',
+    'summary': 'Hospital Management System',
+    'sequence': -100,
+    'description': """Hospital Management System""",
+    'category': 'Productivity',
+    'website': 'https://www.odoo.com',
+    'depends': ['base'],
+    'data': [
+        'security/ir.model.access.csv',
+        'views/patient_view.xml',
+        'views/menu.xml',
+    ],
+    'demo': [],
+    'installable': True,
+    'application': True,
+    'auto_install': False,
+    'license': 'LGPL-3',
+}
